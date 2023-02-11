@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f9f9f9;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form label {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+form {
+  width: 50%;
+  height: 50%;
+  background: #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+form div input {
+  height: 50px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+form button {
+  padding: 8px 20px;
+  height: 50px;
+  background: #247fda;
+  border: none;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+.mensagem {
+  text-align: center;
+  padding: 5px;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
