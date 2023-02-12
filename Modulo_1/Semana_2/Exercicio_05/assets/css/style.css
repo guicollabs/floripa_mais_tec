@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main div h1 {
+  font-size: 5rem;
+  text-align: center;
+  padding: 20px;
+}
+main div button {
+  padding: 10px 30px;
+  border: none;
+  color: #ffffff;
+  background: blue;
+  font-size: 1.5rem;
+  display: block;
+  margin: auto;
+}

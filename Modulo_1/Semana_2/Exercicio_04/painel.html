@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/painel.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Painel Administrativo</h1>
+        <button onclick="removerLocalStorage()">Sair</button>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="perfil">
+          <img src="" alt="" id="imagemPerfil" />
+          <p id="nomePerfil"></p>
+          <p id="emailPerfil"></p>
+        </section>
+        <section class="conteudo">
+          <form id="formularioPerfil">
+            <div id="mensagem"></div>
+            <div>
+              <input
+                type="url"
+                placeholder="Digite a url da imagem"
+                id="imagemUsuario"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                placeholder="Digite seu nome"
+                id="nomeUsuario"
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                placeholder="Digite seu e-mail"
+                id="emailUsuario"
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                placeholder="Digite sua senha antiga"
+                id="senhaAntigaUsuario"
+              />
+            </div>
+            <div>
+              <input
+                type="password"
+                placeholder="Digite sua nova senha"
+                id="novaSenhaUsuario"
+              />
+            </div>
+            <button id="btnAtualizar">Atualizar Perfil</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/painel.js"></script>
+  </body>
+</html>

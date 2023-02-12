@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+main div p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+main div table {
+  width: 100%;
+  text-align: center;
+}
+main div table tr:nth-child(odd) {
+  background: #ccc;
+}
+main div table tr td {
+  padding: 5px;
+}
+main div button {
+  padding: 10px 30px;
+  border: none;
+  background: blue;
+  color: #ffffff;
+  font-size: 1.5rem;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
