@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[M1S03] Ex 2 - Gerador de Link WhatsApp</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <main>
+        <form>
+            <div>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" maxlength="15" onkeyup='mascara(event)' />
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" cols="5" rows="5"></textarea>
+            </div> 
+            <button id="botao">Criar Link</button>  
+            <div id="link" class="link"></div>         
+        </form>        
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

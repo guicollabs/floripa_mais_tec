@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: #4a21ed;
+}
+
+.pesquisa input{
+    width: 60%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.pesquisa button{
+    width: 10%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#lista-usuarios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+#lista-usuarios div{
+    width: 300px;
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+#lista-usuarios div span{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

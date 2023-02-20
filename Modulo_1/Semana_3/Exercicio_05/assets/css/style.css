@@ -1,0 +1,26 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.perfil{
+    background: #eee;
+    border-radius: 5px;
+}
+.perfil img{
+    border-radius: 5px 5px 0 0;
+}
+.perfil h2, .perfil p{
+    text-align: center;
+}
+.perfil a{
+    display: block;
+    margin: auto;
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}

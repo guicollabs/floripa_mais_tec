@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+section .perfil{
+    background: #eee;
+    border-radius: 5px;
+}
+section .perfil img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+section .perfil h2, .perfil p{
+    text-align: center;
+}
+section .perfil a{
+    display: block;
+    margin: auto;
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+section .entrada{
+    margin-bottom: 20px;
+}
+section .entrada input{
+    padding: 10px;
+}
+section .entrada button{
+    padding: 10px 30px;
+    background: blue;
+    color: white;
+    border-color: blue;
+}

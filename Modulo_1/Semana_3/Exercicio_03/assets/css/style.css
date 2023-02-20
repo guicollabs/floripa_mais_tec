@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+main > div{
+    display: flex;
+    flex-direction: column;
+}
+
+main div form{
+    width: 600px;
+}
+
+main form > div{
+    margin-bottom: 15px;
+}
+
+main form div input{
+    width: 100%;
+    padding: 10px;
+}
+
+main form div.cadastrar, main form div.pesquisar{
+    display: flex;
+    width: 100%;
+}
+
+main form div.cadastrar button, main form div.pesquisar button{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    padding: 5px;
+    cursor: pointer;
+}
+
+main form div.pesquisar button:nth-of-type(2){
+    background-color: red;
+}
+
+.todos li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.todos li span button {
+    width: 30px;
+    height: 30px;;
+    padding: 3px;
+    border: none;
+    font-size: 1.5rem;
+    background: transparent;
+}
