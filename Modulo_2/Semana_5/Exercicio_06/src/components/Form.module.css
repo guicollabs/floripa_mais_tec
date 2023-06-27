@@ -1,0 +1,13 @@
+.form input {
+  display: flex;
+  min-height: 44px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  max-width: 584px;
+  padding-left: 20px;
+  color: #fff;
+}
