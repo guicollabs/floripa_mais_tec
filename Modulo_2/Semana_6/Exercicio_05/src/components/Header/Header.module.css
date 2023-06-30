@@ -1,0 +1,44 @@
+.header {
+  background: var(--color-red-100);
+}
+.header div {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header div ul {
+  list-style: none;
+  padding: 0;
+}
+.header div ul li {
+  display: inline-block;
+}
+.header div ul li + li {
+  margin-left: 1.25rem;
+}
+.header div ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: Lobster, sans-serif;
+}
+.header div ul li a:hover {
+  color: var(--color-red-900);
+}
+
+@media (max-width: 768px) {
+  .header div {
+    flex-direction: column;
+    padding: 0;
+  }
+  .header div img {
+    width: 100px;
+    margin-top: 1rem;
+  }
+  .header div ul {
+    margin: 1rem 0;
+  }
+}
