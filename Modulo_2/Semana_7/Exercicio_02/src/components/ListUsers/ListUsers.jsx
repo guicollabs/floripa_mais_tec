@@ -1,3 +1,5 @@
+import Like from '../Like/Like';
+
 const ListUsers = ({ users }) => {
   return (
     <>
@@ -9,7 +11,9 @@ const ListUsers = ({ users }) => {
             <td>{user.age}</td>
             <td>{user.email}</td>
             <td>{user.password}</td>
-            <td>Like</td>
+            <td>
+              <Like />
+            </td>
             <td>
               <button onClick={() => alert(`Editar: ${user.nickname}`)}>
                 Editar
