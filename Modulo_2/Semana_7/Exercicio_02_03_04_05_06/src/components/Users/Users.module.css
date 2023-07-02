@@ -1,0 +1,16 @@
+.table {
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+.table thead {
+  background: #069;
+  color: #fff;
+}
+.table thead th {
+  padding: 5px;
+}
+.list div {
+  background: #eee;
+  padding: 10px;
+}
