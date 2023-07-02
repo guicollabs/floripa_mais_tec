@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import styles from './Form.module.css';
+import { Users } from './../Users';
 
 const Form = () => {
   const [users, setUsers] = useState([]);
@@ -75,7 +76,7 @@ const Form = () => {
         />
         <button>Cadastrar</button>
       </form>
-
+      <Users users={users} />
     </>
   );
 };
