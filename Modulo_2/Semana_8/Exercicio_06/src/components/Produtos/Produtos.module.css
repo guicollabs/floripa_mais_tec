@@ -1,0 +1,24 @@
+.produtos div {
+  width: 100%;
+  max-width: 1120px;
+  padding: 0 20px;
+  margin: 0 auto 2.5rem;
+}
+.produtos div h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Lobster, sans-serif;
+  color: var(--color-brow-900);
+}
+.produtos div p {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
