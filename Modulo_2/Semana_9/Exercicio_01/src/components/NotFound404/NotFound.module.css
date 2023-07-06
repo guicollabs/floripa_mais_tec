@@ -1,0 +1,45 @@
+.notFound {
+  min-height: 100%;
+  height: calc(100vh - 140px);
+  background: linear-gradient(0deg, rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(https://images.unsplash.com/photo-1684246524496-180d5b07ee7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notFound h2 {
+  font-size: 7rem;
+  margin-top: 60px;
+}
+.notFound h3 {
+  font-size: 3rem;
+}
+.notFound p {
+  font-size: 1.5rem;
+  margin-top: 35px;
+}
+.notFound h2,
+.notFound h3,
+.notFound p {
+  color: var(--white);
+}
+.notFound a {
+  display: inline-block;
+  padding: 11px 40px 9px;
+  border: none;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 50px;
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 30px;
+  transition: all 0.4s ease;
+  background-color: var(--color-blue-900);
+}
+.notFound a:hover {
+  filter: brightness(0.9);
+}
