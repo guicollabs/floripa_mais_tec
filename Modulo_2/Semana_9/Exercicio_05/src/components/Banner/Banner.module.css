@@ -1,0 +1,46 @@
+.banner {
+  width: 100%;
+  height: calc(100vh - 140.84px);
+  min-height: 100%;
+  background: url('./../../assets/img/cupcake-banner.jpg');
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px var(--color-blue-300);
+}
+.banner div {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 3.75rem 1.25rem;
+}
+.banner div h2 {
+  font-size: 6rem;
+  font-family: Lobster, sans-serif;
+  text-align: center;
+  color: var(--white);
+  margin-top: 2rem;
+}
+.banner div button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: var(--white);
+  font-weight: 600;
+  display: block;
+  margin: auto;
+  background: var(--color-red-900);
+  border: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+.banner div button span {
+  margin-left: 5px;
+}
+.banner div button:hover {
+  filter: brightness(0.9);
+}
+
+@media (max-width: 768px) {
+  .banner div h2 {
+    font-size: 3.5rem;
+  }
+}

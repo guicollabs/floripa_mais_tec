@@ -1,0 +1,31 @@
+.accordion {
+  margin-bottom: 1rem;
+  background-color: var(--color-blue-900);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.title,
+.content {
+  padding: 1rem;
+}
+
+.content {
+  background-color: var(--white);
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 18px;
+  }
+
+  .accordion {
+    width: 90%;
+  }
+}
